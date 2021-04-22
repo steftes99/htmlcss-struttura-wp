@@ -2,21 +2,25 @@ body{
     width: 80%;
     margin: auto;
 }
+
 header{
     height: 200px;
     background-color: violet;
     margin-bottom: 20px;
     display: block;
 }
+
 .principale{
     height: 500px;
     background-color: #e1d67a;
     margin-bottom: 20px;
 }
+
 .barra{
     height: 80px;
     background-color: #abcfe7;
     margin-bottom: 0;
+
 
 }
 .container{
@@ -29,6 +33,7 @@ header{
     background-color:  #abcfe7;
 
 }
+
 .left{
     height: 500px;
     width: 25%;
@@ -36,9 +41,8 @@ header{
     float: left;
     border-right: 15px solid#0087ff;
     background-color:  #abcfe7;
-
-    
 }
+
 .right{
     height: 500px;
     width: 25%;
@@ -46,6 +50,10 @@ header{
     float: right;
     border-left: 15px solid #0087ff;
     background-color:  #abcfe7;
-    
+}
 
+footer{
+    height: 70px;
+    margin-top: 10px;
+    background-color: #8801fe;
 }
