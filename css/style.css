@@ -6,4 +6,46 @@ header{
     height: 200px;
     background-color: violet;
     margin-bottom: 20px;
+    display: block;
+}
+.principale{
+    height: 500px;
+    background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+.barra{
+    height: 80px;
+    background-color: #abcfe7;
+    margin-bottom: 0;
+
+}
+.container{
+    margin-top: 0;
+    height: 500px;
+    background-color: red;
+    border: 15px solid #0087ff;
+    border-left: 0;
+    border-right: 0;
+    background-color:  #abcfe7;
+
+}
+.left{
+    height: 500px;
+    width: 25%;
+    background-color: green;
+    float: left;
+    border-right: 15px solid#0087ff;
+    background-color:  #abcfe7;
+
+    
+}
+.right{
+    height: 500px;
+    width: 25%;
+    background-color: green;
+    float: right;
+    border-left: 15px solid #0087ff;
+    background-color:  #abcfe7;
+    
+
 }
