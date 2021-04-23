@@ -24,15 +24,11 @@ header{
 
 }
 .container{
-    margin-top: 0;
     height: 500px;
-    background-color: red;
-    border: 15px solid #0087ff;
-    border-left: 0;
-    border-right: 0;
-    background-color:  #abcfe7;
-
+    background-color:  #0087ff;
+    margin-top: 0;
 }
+
 .container::after{
     content: "";
     display: table;
@@ -40,21 +36,37 @@ header{
 }
 
 .left{
-    height: 500px;
+    height: 480px;
     width: 25%;
-    background-color: green;
-    float: left;
-    border-right: 15px solid#0087ff;
     background-color:  #abcfe7;
+    margin-top: 10px;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    float: left;
+    
+
+}
+
+.middle{
+    height: 480px;
+    width: 47%;
+    background-color: #abcfe7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+   
 }
 
 .right{
-    height: 500px;
-    width: 25%;
-    background-color: green;
-    float: right;
-    border-left: 15px solid #0087ff;
+    height: 480px;
+    width: 25%; 
     background-color:  #abcfe7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+    
+    
 }
 
 footer{
